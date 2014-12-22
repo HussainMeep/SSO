@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311317aa-1806-4158-ab8e-a715e410db21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/confs/ss02.conf" afterPath="$PROJECT_DIR$/confs/ss02.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/confs/sso1.conf" afterPath="$PROJECT_DIR$/confs/sso1.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sso/wsgi.py" afterPath="$PROJECT_DIR$/sso/wsgi.py" />
     </list>
     <ignored path="sso.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sso1.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sso1.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/confs/sso1.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10885341" vertical-offset="0" max-vertical-offset="689">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sso/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21770681" vertical-offset="0" max-vertical-offset="689">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -143,18 +152,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -172,6 +169,7 @@
         <option value="$PROJECT_DIR$/sso/settings.py" />
         <option value="$PROJECT_DIR$/confs/ss02.conf" />
         <option value="$PROJECT_DIR$/confs/sso1.conf" />
+        <option value="$PROJECT_DIR$/sso/wsgi.py" />
       </list>
     </option>
   </component>
@@ -753,14 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2394775" vertical-offset="0" max-vertical-offset="689">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="405">
@@ -782,8 +772,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/confs/sso1.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10885341" vertical-offset="0" max-vertical-offset="689">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21770681" vertical-offset="0" max-vertical-offset="689">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding />
         </state>
       </provider>
