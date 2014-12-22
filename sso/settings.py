@@ -70,7 +70,7 @@ MIDDLEWARE_CLASSES = (
     'account.middleware.TimezoneMiddleware',
 )
 
-# SESSION_COOKIE_DOMAIN = ['.delhivery.com']
+SESSION_COOKIE_DOMAIN = ['.delhivery.com']
 SESSION_ENGINE = 'redis_sessions.session'
 SESSION_REDIS_PREFIX = 'session'
 
