@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'pinax_theme_bootstrap',
     'bootstrapform',
-    'account',
+    # 'account',
     'testapp'
 )
 
@@ -54,8 +54,8 @@ INSTALLED_APPS = (
 TEMPLATE_CONTEXT_PROCESSORS = [
     "pinax_theme_bootstrap.context_processors.theme",
     "django.contrib.auth.context_processors.auth",
-    "account.context_processors.account",
-    'django.core.context_processors.request',
+    # "account.context_processors.account",
+    # 'django.core.context_processors.request',
 ]
 
 
@@ -66,18 +66,18 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'account.middleware.LocaleMiddleware',
-    'account.middleware.TimezoneMiddleware',
+    # 'account.middleware.LocaleMiddleware',
+    # 'account.middleware.TimezoneMiddleware',
 )
 
-SESSION_COOKIE_DOMAIN = '.delhivery.com'
+# SESSION_COOKIE_DOMAIN = '.delhivery.com'
 SESSION_ENGINE = 'redis_sessions.session'
 SESSION_REDIS_PREFIX = 'session'
 
 ROOT_URLCONF = 'sso.urls'
 WSGI_APPLICATION = 'sso.wsgi.application'
 
-ACCOUNT_LOGIN_REDIRECT_URL = '/'
+# ACCOUNT_LOGIN_REDIRECT_URL = 'www.gogle.com'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
