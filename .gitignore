@@ -3,3 +3,7 @@
 *.sqlite3
 .idea/*.*
 .idea/workspace.xml
+
+*.pyc
+
+*.pyc
